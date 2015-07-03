@@ -1,0 +1,63 @@
+body {
+	background-image: url("world-map-painting.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.3rem;
+	-webkit-font-smoothing: antialiased;
+	color: #1C1727;
+}
+
+#main {
+	background-image: url("plate.png");
+	background-size: 310px 240px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 5rem;
+}
+#food-info {
+	background-color: rgba(243, 245, 244, 0.6);
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1rem;
+}
+p {
+	margin-right: auto;
+	margin-left: auto;
+}
+.intro-text {
+	font-size: 2rem;
+	background-color: rgba(243, 245, 244, 0.6);
+	width: 400px;
+	padding: 1rem;
+}
+h3 {
+	display: inline;
+	background-color: rgba(243, 245, 244, 0.6);
+	color: #452D58;
+	padding: 1rem;
+}
+button {
+	background-color: rgba(243, 245, 244, 0.6);
+	border: 1px solid #1C1727;
+	padding: 1rem;
+}
+#start {
+	font-size: 2rem;
+}
+#answer1, #answer2, #answer3, #answer4 {
+	font-size: 1.3rem;
+}
+button:hover {
+	background-color: rgba(69, 45, 88, 0.6);
+	color: #F3F5F4;
+}
+#answered {
+	background-color: #452D58;
+	color: #F3F5F4;
+}
+#answers-list {
+	margin-bottom: 2rem;
+}

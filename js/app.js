@@ -10,16 +10,16 @@ function Results(rText) {
 }
 
 var foodQuiz = new Array();
-foodQuiz[0] = new Details('<h2>' + 'Balut' + '</h2>' + '<img src="images/balut.jpg" width="121px" height="123px">');
-foodQuiz[1] = new Details('<h2>' + 'Hákarl' + '</h2>' + '<img src="images/hakarl.jpg" width="192px" height="137px">');
-foodQuiz[2] = new Details('<h2>' + 'Sannakji' + '</h2>' + '<img src="images/sannakji.jpg" width="168px" height="124px">');
-foodQuiz[3] = new Details('<h2>' + 'Hairy Tofu' + '</h2>' + '<img src="images/hairytofu.jpg" width="178px" height="116px">');
-foodQuiz[4] = new Details('<h2>' + 'Bundaegi' + '</h2>' + '<img src="images/bundaegi.jpg" width="150px" height="120px">');
-foodQuiz[5] = new Details('<h2>' + 'Chitterlings' + '</h2>' + '<img src="images/chitterlings.jpg" width="128px" height="127px">');
-foodQuiz[6] = new Details('<h2>' + 'Haggis' + '</h2>' + '<img src="images/haggis.jpg" width="150px" height="117px">');
-foodQuiz[7] = new Details('<h2>' + 'Tamilok (Woodworm)' + '</h2>' + '<img src="images/mangrovewoodworm.jpg" width="126px" height="125px">');
-foodQuiz[8] = new Details('<h2>' + 'Smalahove' + '</h2>' + '<img src="images/smalahove.jpeg" width="206px" height="108px">');
-foodQuiz[9] = new Details('<h2>' + 'Kopi Luwak (Weasel Dung Coffee)' + '</h2>' + '<img src="images/weaseldungcoffee.jpg" width="163px" height="131px">');
+foodQuiz[0] = new Details('<h2>' + 'Balut' + '</h2>' + '<img src="images/balut-min.jpg" width="121px" height="123px">');
+foodQuiz[1] = new Details('<h2>' + 'Hákarl' + '</h2>' + '<img src="images/hakarl-min.jpg" width="192px" height="137px">');
+foodQuiz[2] = new Details('<h2>' + 'Sannakji' + '</h2>' + '<img src="images/sannakji-min.jpg" width="168px" height="124px">');
+foodQuiz[3] = new Details('<h2>' + 'Hairy Tofu' + '</h2>' + '<img src="images/hairytofu-min.jpg" width="178px" height="116px">');
+foodQuiz[4] = new Details('<h2>' + 'Bundaegi' + '</h2>' + '<img src="images/bundaegi-min.jpg" width="150px" height="120px">');
+foodQuiz[5] = new Details('<h2>' + 'Chitterlings' + '</h2>' + '<img src="images/chitterlings-min.jpg" width="128px" height="127px">');
+foodQuiz[6] = new Details('<h2>' + 'Haggis' + '</h2>' + '<img src="images/haggis-min.jpg" width="150px" height="117px">');
+foodQuiz[7] = new Details('<h2>' + 'Tamilok (Woodworm)' + '</h2>' + '<img src="images/mangrovewoodworm-min.jpg" width="126px" height="125px">');
+foodQuiz[8] = new Details('<h2>' + 'Smalahove' + '</h2>' + '<img src="images/smalahove-min.jpeg" width="206px" height="108px">');
+foodQuiz[9] = new Details('<h2>' + 'Kopi Luwak (Weasel Dung Coffee)' + '</h2>' + '<img src="images/weaseldungcoffee-min.jpg" width="163px" height="131px">');
 
 var results = new Array();
 results[0] = new Results('<article>' + '<p>' + "Balut is a popular snack in the Philippines. It is a developing duck embryo that is boiled and eaten in the shell. It's served best in the dark with a side of salt and vinegar!" + '</p>' + '</article>');

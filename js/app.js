@@ -141,8 +141,9 @@ $nextQuestion.on('click', function() {
 	}
 
 function nextQuestion() {
+	$mainQuestion.show();
 	$main.hide().html("" + foodQuiz[currentQuestion].qText + "").fadeIn(300);
-	$answerSelection.append('<input type="button" value='+answerList[currentQuestion].a0+' id="a">').append('<input type="button" value='+answerList[currentQuestion].a1+' id="b">').append('<input type="button" value='+answerList[currentQuestion].a2+' id="c">').append('<input type="button" value='+answerList[currentQuestion].a3+' id="d">').hide().fadeIn(300);
+	$answerSelection.append('<input type="button" value='+answerList[currentQuestion].a0+' id="a">').append('<input type="button" value='+answerList[currentQuestion].a1+' id="b">').append('<input type="button" value='+answerList[currentQuestion].a2+' id="c">').append('<input type="button" value='+answerList[currentQuestion].a3+' id="d">');
 }
 });
 
@@ -151,7 +152,6 @@ $answerSelection.on('click', 'input:button', function() {
 	$answerSelection.find('input:button').attr('disabled', true);
 	$(this).css({'background-color': '#452D58',
 				'color': '#F3F5F4'});
-	//var userAnswer = $(this).attr("value");
 	checkAnswer($(this).attr("value"));
 });
 
@@ -163,6 +163,7 @@ function checkAnswer(userAnswer) {
 		cTrack++;
 		qTrack++;
 		$nextQuestion.hide().fadeIn(300);
+		$mainQuestion.hide();
 		$('#correct').hide().fadeIn(300);
 		$main.hide().html("" + foodQuiz[0].qText + "");
 		$main.html("" + results[currentQuestion].rText + "").fadeIn(300);
@@ -170,6 +171,7 @@ function checkAnswer(userAnswer) {
 	else if(userAnswer != answerList[currentQuestion].answer) {
 		qTrack++;
 		$nextQuestion.hide().fadeIn(300);
+		$mainQuestion.hide();
 		$('#incorrect').hide().fadeIn(300);
 		$main.hide().html("" + foodQuiz[0].qText + "");
 		$main.html("" + results[currentQuestion].rText + "").fadeIn(300);

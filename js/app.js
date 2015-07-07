@@ -15,7 +15,7 @@ foodQuiz[1] = new Details('<h2>' + 'Hákarl' + '</h2>' + '<img src="images/hakar
 foodQuiz[2] = new Details('<h2>' + 'Sannakji' + '</h2>' + '<img src="images/sannakji-min.jpg" width="168px" height="124px">');
 foodQuiz[3] = new Details('<h2>' + 'Hairy Tofu' + '</h2>' + '<img src="images/hairytofu-min.jpg" width="178px" height="116px">');
 foodQuiz[4] = new Details('<h2>' + 'Bundaegi' + '</h2>' + '<img src="images/bundaegi-min.jpg" width="150px" height="120px">');
-foodQuiz[5] = new Details('<h2>' + 'Chitterlings' + '</h2>' + '<img src="images/chitterlings-min.jpg" width="128px" height="127px">');
+foodQuiz[5] = new Details('<h2>' + 'Chitlins' + '</h2>' + '<img src="images/chitterlings-min.jpg" width="128px" height="127px">');
 foodQuiz[6] = new Details('<h2>' + 'Haggis' + '</h2>' + '<img src="images/haggis-min.jpg" width="150px" height="117px">');
 foodQuiz[7] = new Details('<h2>' + 'Tamilok (Woodworm)' + '</h2>' + '<img src="images/mangrovewoodworm-min.jpg" width="126px" height="125px">');
 foodQuiz[8] = new Details('<h2>' + 'Smalahove' + '</h2>' + '<img src="images/smalahove-min.jpeg" width="206px" height="108px">');
@@ -27,7 +27,7 @@ results[1] = new Results('<article>' + '<p>' + "Hákarl is a national dish of Ic
 results[2] = new Results('<article>' + '<p>' + "Sannakji is a raw octopus dish enjoyed in South Korea. It is chopped up and served immediately to ensure that the tentacles wiggle until they are totally swallowed. The dish is believed to help build stamina." + '</p>' + '</article>');
 results[3] = new Results('<article>' + '<p>' + "Hairy tofu is a street snack that can be found in most parts of mainland China. It is known for its pungent (ie: offensive) smell and mushy consistency." + '</p>' + '</article>');
 results[4] = new Results('<article>' + '<p>' + "South Korea strikes again with this street snack consisting of cooked silkworm pupae. A cup could be bought for about a dollar at many street vendors (what a steal!)." + '</p>' + '</article>');
-results[5] = new Results('<article>' + '<p>' + "Chitterlings are a popular American soul food in the South. The dish consists of the small intestines of a big and cooked in broth - best with an onion to offset the unpleasant smell." + '</p>' + '</article>');
+results[5] = new Results('<article>' + '<p>' + "Chitlins are a popular American soul food in the South. The dish consists of the small intestines of a big and cooked in broth - best with an onion to offset the unpleasant smell." + '</p>' + '</article>');
 results[6] = new Results('<article>' + '<p>' + "This horrific-looking dish is popular in Scotland. It consists of sheep's offal mixed with oatmeal and it is boiled all together in the animal's stomach." + '</p>' + '</article>');
 results[7] = new Results('<article>' + '<p>' + "Tamilok (woodworm) is a delicacy of the island of Palawan in the Philippines. It is usually taken straight from the log and marinated raw with vinegar, chili peppers, and onions." + '</p>' + '</article>');
 results[8] = new Results('<article>' + '<p>' + "Smalahove is a traditional Norwegian dish. It is made from a sheep's head and usually served before Christmas. Don't worry, the brain is removed before eating." + '</p>' + '</article>');

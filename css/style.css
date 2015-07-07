@@ -25,7 +25,7 @@ body {
 	display: none;
 }
 article {
-	background-color: rgba(243, 245, 244, 0.6);
+	background-color: rgba(243, 245, 244, 0.7);
 	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
@@ -38,18 +38,18 @@ p {
 }
 #intro-text {
 	font-size: 2rem;
-	background-color: rgba(243, 245, 244, 0.6);
+	background-color: rgba(243, 245, 244, 0.7);
 	width: 400px;
 	padding: 1rem;
 }
 h3 {
 	display: inline;
-	background-color: rgba(243, 245, 244, 0.6);
+	background-color: rgba(243, 245, 244, 0.7);
 	color: #452D58;
 	padding: 1rem;
 }
 button {
-	background-color: rgba(243, 245, 244, 0.6);
+	background-color: rgba(243, 245, 244, 0.7);
 	border: 1px solid #1C1727;
 	padding: 1rem;
 }
@@ -67,13 +67,13 @@ button {
 input[type="button"] {
 	font-size: 1.3rem;
 	margin-right: 1rem;
-	background-color: rgba(243, 245, 244, 0.6);
+	background-color: rgba(243, 245, 244, 0.7);
 	border: 1px solid #1C1727;
 	padding: 1rem;
 }
 input[type="button"]:hover,
 button:hover {
-	background-color: rgba(69, 45, 88, 0.6);
+	background-color: rgba(69, 45, 88, 0.7);
 	color: #F3F5F4;
 }
 .selected {
